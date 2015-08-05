@@ -56,7 +56,6 @@ class l18n {
 
     protected function updateFluxChildsToNewLanguage($parent_ids) {
         foreach($parent_ids as $old=>$new) {
-            var_dump($old.' '.$new);
             $select_childs = "SELECT * from tt_content WHERE sys_language_uid=$this->lang_uid AND tx_flux_parent=$old";
             $select = self::$db_connection->query($select_childs);
             while ($row = $select->fetch_assoc()) {

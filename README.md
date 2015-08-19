@@ -14,4 +14,4 @@ php l18n.php [sys_language_uid to translate to] [page_uid of the page needed to 
 ###Enjoy having the fluid content translated ;)
 
 ## Known issues :
-- for now on images are not properly localized, I will fix it in next coming days
+- for now on images are not properly localized, I will fix it in next releases.
